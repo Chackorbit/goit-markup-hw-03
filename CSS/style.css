@@ -95,7 +95,6 @@ button {
 }
 
 .page-header {
-  background-color: #ccc;
   margin-bottom: -94px;
 }
 
@@ -349,7 +348,7 @@ button {
   justify-content: center;
 }
 
-.page-header {
+.page-header.portf {
   margin-bottom: 94px;
 }
 
