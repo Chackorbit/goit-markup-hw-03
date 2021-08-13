@@ -407,7 +407,10 @@ button {
 /* Карточки */
 
 .cards.list {
-  padding-bottom: 94px;
+  margin-bottom: 188px;
+
+  justify-content: center;
+  background-color: tomato;
 }
 
 .cards .card-header {
