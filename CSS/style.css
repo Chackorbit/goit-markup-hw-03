@@ -61,6 +61,11 @@ button {
   list-style: none;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* main nav */
 .main-nav {
   display: flex;
@@ -88,6 +93,10 @@ button {
   margin-bottom: 94px;
 
   /* outline: 1px solid tomato; */
+}
+
+.container.main-nav {
+  margin-bottom: 0;
 }
 
 .container .cont-size {
@@ -349,7 +358,7 @@ button {
 }
 
 .page-header.portf {
-  margin-bottom: 94px;
+  border: 1px solid #ececec;
 }
 
 .filtr-cont {
@@ -406,8 +415,6 @@ button {
 /* Карточки */
 
 .cards.list {
-  margin-bottom: 188px;
-
   justify-content: center;
 }
 
@@ -445,6 +452,7 @@ button {
 
 .flex-element {
   margin-right: 30px;
+  margin-bottom: 30px;
 
   border: 1px solid var(--bg-cards);
 }
