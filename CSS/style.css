@@ -86,11 +86,18 @@ button {
   color: var(--brand-color);
 }
 
+.logohead .logo {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .container {
-  max-width: 1600px;
-  margin-left: 215px;
-  margin-right: 215px;
-  margin-bottom: 94px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* margin-bottom: 94px; */
 
   /* outline: 1px solid tomato; */
 }
@@ -99,8 +106,8 @@ button {
   margin-bottom: 0;
 }
 
-.container .cont-size {
-  width: 1170px;
+.container.cont-size {
+  width: 1200px;
 }
 
 .page-header {
@@ -124,6 +131,11 @@ button {
   font-size: 14px;
   line-height: 1.2;
   text-decoration: none;
+}
+
+.cont-list .link {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .site-nav .link:hover,
@@ -179,7 +191,7 @@ button {
 .hero {
   background-color: var(--background-color-foot-and-hero);
   text-align: center;
-  margin-bottom: 94px;
+  margin-top: 94px;
 }
 
 .hero .button {
@@ -202,6 +214,11 @@ button {
 
 /* Преимущества */
 
+.section-benef {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .benefits {
   display: flex;
   justify-content: center;
@@ -209,6 +226,11 @@ button {
 
 .benefits .item {
   width: 270px;
+  padding-right: 30px;
+}
+
+.benefits .item:nth-last-child(4n + 1) {
+  padding-right: 0;
 }
 
 .list.benefits .header {
@@ -234,6 +256,10 @@ button {
 
 /* Чем занимаемся */
 
+.work {
+  padding-bottom: 94px;
+}
+
 .work .header {
   font-size: 36px;
   line-height: 1.2;
@@ -253,11 +279,14 @@ button {
   margin-right: 30px;
 }
 
+.our-work .item:nth-last-child(3n + 1) {
+  margin-right: 0;
+}
+
 /* Наша команда */
 .our-team {
   display: flex;
   justify-content: center;
-  padding-bottom: 94px;
 }
 
 .our-team .item {
@@ -270,12 +299,19 @@ button {
   border-radius: 0px 0px 4px 4px;
 }
 
+.our-team .item:nth-last-child(4n + 1) {
+  margin-right: 0;
+}
+
 .item-text {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 .team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
   background-color: var(--bg-color);
 }
 
@@ -284,7 +320,8 @@ button {
   line-height: 1.2;
   text-align: center;
 
-  padding-top: 94px;
+  margin-bottom: 0;
+  padding-bottom: 94px;
 }
 
 .name {
@@ -303,18 +340,19 @@ button {
 
 /* Футер */
 .footer {
+  padding-top: 94px;
+
   background-color: var(--background-color-foot-and-hero);
   text-decoration: none;
 }
 
 .footer-logo {
-  padding-top: 60px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .footer .container {
   margin-bottom: -94px;
-  margin-top: -94px;
+  /* margin-top: -94px; */
 }
 
 .studio {
@@ -336,12 +374,21 @@ button {
   text-decoration: none;
 }
 
+.placed {
+  margin-bottom: 9px;
+}
+
 .adres .link {
   color: rgba(255, 255, 255, 0.6);
 }
 
 .contacts-footer {
   display: block;
+}
+
+.contacts.contacts-footer .item {
+  margin-bottom: 9px;
+  margin-left: 0;
 }
 
 /* Портфолио */
