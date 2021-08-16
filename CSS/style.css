@@ -400,8 +400,10 @@ button {
 /* Фильтр */
 
 .content {
-  width: 1170px;
+  width: 1200px;
   justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .page-header.portf {
@@ -461,9 +463,9 @@ button {
 
 /* Карточки */
 
-.cards.list {
+/* .cards.list {
   justify-content: center;
-}
+} */
 
 .cards .card-header {
   font-size: 18px;
@@ -483,7 +485,7 @@ button {
 }
 
 .container.flex-container {
-  width: 1360px;
+  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   /* margin-right: auto;
@@ -495,6 +497,16 @@ button {
 .flex-cards {
   display: flex;
   flex-wrap: wrap;
+
+  padding-right: 15px;
+  padding-left: 15px;
+
+  margin-right: -30px;
+  margin-left: -30px;
+}
+
+.flex-cards .flex-element {
+  flex-basis: calc(100% / 3 - 30px);
 }
 
 .flex-element {
