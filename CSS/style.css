@@ -444,9 +444,11 @@ button {
 .filtr .button.all {
   color: var(--ptimary-lighte-color);
   background-color: var(--brand-color);
+
+  margin-left: 0;
 }
 
-.portfolio .button {
+.filtr .button {
   color: var(--h-text-color);
   background-color: #f5f4fa;
 
@@ -454,8 +456,8 @@ button {
   margin-left: 8px;
 }
 
-.portfolio .button:hover,
-.portfolio .button:focus {
+.filtr .button:hover,
+.filtr .button:focus {
   color: var(--ptimary-lighte-color);
   background-color: var(--brand-color);
   cursor: pointer;
