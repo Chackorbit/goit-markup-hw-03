@@ -540,3 +540,7 @@ button {
 .flex-element:nth-last-child(-n + 3) {
   margin-bottom: 30px;
 }
+
+.info-card {
+  padding: 24px 20px;
+}
