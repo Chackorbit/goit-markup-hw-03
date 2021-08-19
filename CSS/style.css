@@ -138,6 +138,10 @@ button {
   padding-bottom: 32px;
 }
 
+.cont-list {
+  display: flex;
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--brand-color);
@@ -161,6 +165,7 @@ button {
 }
 
 .contacts .link {
+  display: flex;
   color: var(--p-text-color);
   font-family: Roboto;
   font-weight: 500;
@@ -205,6 +210,7 @@ button {
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
+  letter-spacing: 0.06em;
 
   min-width: 200px;
 
@@ -260,6 +266,7 @@ button {
   font-family: Roboto;
   font-size: 14px;
   line-height: 24px;
+  letter-spacing: 0.03em;
 }
 
 /* Чем занимаемся */
@@ -328,7 +335,7 @@ button {
   line-height: 1.2;
   text-align: center;
 
-  margin-bottom: 94px;
+  margin-bottom: 50px;
 }
 
 .team-img {
@@ -361,6 +368,7 @@ button {
 }
 
 .footer-logo {
+  display: block;
   margin-bottom: 20px;
 }
 
@@ -387,6 +395,7 @@ button {
 }
 
 .placed {
+  display: block;
   margin-bottom: 9px;
 }
 
@@ -428,7 +437,7 @@ button {
   flex-wrap: wrap;
 
   width: 1170px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .portfolio {
