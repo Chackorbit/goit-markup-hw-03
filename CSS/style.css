@@ -19,6 +19,7 @@ html {
 }
 
 /* Утилиты */
+h1,
 h2,
 h3,
 h4,
@@ -37,7 +38,7 @@ p {
 }
 
 body {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   background-color: var(--ptimary-lighte-color);
 }
 
@@ -422,8 +423,15 @@ button {
   border: 1px solid #ececec;
 }
 
-.hiden {
-  display: none;
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
 }
 
 /* Фильтр */
@@ -549,8 +557,6 @@ button {
 .flex-element {
   margin-right: 30px;
   margin-bottom: 30px;
-
-  border: 1px solid var(--bg-cards);
 }
 
 .flex-element:nth-child(3n) {
@@ -563,4 +569,7 @@ button {
 
 .info-card {
   padding: 24px 20px;
+  margin-top: -5px;
+  border: 1px solid var(--bg-cards);
+  border-top: none;
 }
